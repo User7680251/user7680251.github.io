@@ -14,3 +14,6 @@
 
 .portrait-photo{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:24px}
 @media(max-width:640px){.portrait-photo{border-radius:12px}}
+
+/* Keep the portrait within standard display brightness, including HDR-capable screens. */
+.portrait-photo{dynamic-range-limit:standard}
