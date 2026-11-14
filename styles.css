@@ -11,3 +11,6 @@
 @media(max-width:960px){.hero{padding-block:60px}.paper-drafts .project{gap:28px}.paper-drafts .project h3{font-size:22px}}
 @media(max-width:640px){.nav{grid-template-columns:1fr;gap:0}.wordmark{justify-self:start}.hero{padding-block:36px;align-items:center}.hero h1{grid-column:1;grid-row:1;font-size:40px;margin:0}.portrait{grid-column:2;grid-row:1}.hero-summary{margin-top:-8px}.statement{font-size:30px}.education-block{border-top:1px solid var(--line);padding-top:28px}.context{padding-block:32px 40px}.paper-drafts{margin-top:20px;gap:20px}.paper-drafts .project{grid-template-columns:1fr;gap:20px;padding:20px}.blog-note{padding:24px 0;display:block}.draft-label{display:block;margin-top:18px}#blog .research-card{padding:20px}}
 @media(max-width:380px){.hero h1{font-size:36px}.statement{font-size:29px}}
+
+.portrait-photo{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:24px}
+@media(max-width:640px){.portrait-photo{border-radius:12px}}
